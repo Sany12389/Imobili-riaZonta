@@ -21,6 +21,14 @@ main {
   padding: 20px; /* Espaçamento interno */
 }
 
+form {
+  $input-btn-padding-y:         .375rem;
+$input-btn-padding-x:         .75rem;
+$input-btn-font-family:       null;
+$input-btn-font-size:         $font-size-base;
+$input-btn-line-height:       $line-height-base;
+}
+
 footer {
   background-color: #000000; /* Preto para o rodapé */
   color: #10f7ff; /* Cinza claro para o texto (menos agressivo que o roxo neon) */
